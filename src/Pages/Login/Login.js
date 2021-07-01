@@ -58,7 +58,6 @@ function Login() {
           alert('비밀번호를 확인해주세요.');
         }
         if (res['MESSAGE'] === 'JSON_DECODE_ERROR') {
-          console.log('JSON으로 보냈니?');
         }
       });
   };
